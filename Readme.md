@@ -16,7 +16,7 @@ This script converts a Gherkin scenario outline file (`.feature`) into an Excel 
 
 1. **Clone the Repository:** Clone this repository to your local machine using Git:
 
-`git clone https://github.com/your-username/scenario-outline-to-excel.git`
+`git clone https://github.com/PFefe/scenario-outline-to-excel.git`
 
 
 
