@@ -1,148 +1,271 @@
-﻿#;Summary;Description;Countries;Issue Type;Components;Priority;Labels;Assignee;Test Type;Test Repository Folder
-1;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 1 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Reference Number""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Reference Number"" with ""null""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-2;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 2 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Location""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Location"" with ""Al Reef, Abu Dhabi""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-3;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 3 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Offering Type""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Offering Type"" with ""Rent""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-4;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 4 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Offering Type""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Offering Type"" with ""Sale""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-5;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 5 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Boosting Products""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Boosting Products"" with ""Standard""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-6;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 6 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Boosting Products""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Boosting Products"" with ""Premium""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-7;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 7 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Boosting Products""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Boosting Products"" with ""Featured""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-8;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 8 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Furnishing Type""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Furnishing Type"" with ""Unfurnished""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-9;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 9 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Furnishing Type""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Furnishing Type"" with ""Semi furnished""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-10;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 10 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""State""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""State"" with ""Draft""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-11;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 11 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""State""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""State"" with ""Duplicated""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-12;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 12 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""State""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""State"" with ""Archived""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-13;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 13 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""State""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""State"" with ""Refused""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-14;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 14 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Status""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Status"" with ""Online""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-15;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 15 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Status""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Status"" with ""Offline""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-16;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 16 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Status""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Status"" with ""Verified""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-17;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 17 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Status""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Status"" with ""Pending Verification""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-18;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 18 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Property Status""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Property Status"" with ""Reserved""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-19;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 19 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Property Status""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Property Status"" with ""Under offer""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-20;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 20 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""User""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""User"" with ""Divya Gupta""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
-21;"Property listing page filters=> Verify whether the user is able to filter the properties by ""<filterType>"": Example = 21 ";"Feature: Property listing page filters
-
-  Scenario Outline: Verify whether the user is able to filter the properties by ""Bedroom""
-    Given user is logged in and is on Properties Tab
-    And reset the filters on property listing page
-    When search for the property by ""Bedroom"" with ""5""
-    Then verify filtered property records are returned";AE;Test;Alpha;P2;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+﻿#;Summary;Description;Countries;Issue Type;Component Names;Labels;Assignee Name;Test Type;Test Repository Folder
+1;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 1 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""1"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""1"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+2;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 2 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""5"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""5"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+3;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 3 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""4"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""4"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+4;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 4 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""8"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""8"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+5;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 5 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""9"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""9"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+6;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 6 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""10"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""10"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+7;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 7 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""11"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""11"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+8;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 8 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""31"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""31"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+9;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 9 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""32"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""32"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+10;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 10 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""37"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""37"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+11;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 11 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""58"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""58"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+12;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 12 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""59"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""59"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+13;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 13 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""60"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""60"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+14;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 14 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""residential"" ""61"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""61"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+15;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 15 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""13"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""13"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+16;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 16 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""16"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""16"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+17;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 17 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""18"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""18"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+18;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 18 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""19"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""19"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+19;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 19 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""20"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""20"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+20;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 20 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""23"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""23"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+21;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 21 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""24"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""24"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+22;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 22 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""27"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""27"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+23;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 23 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""62"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""62"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+24;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 24 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""63"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""63"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+25;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 25 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""48"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""48"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+26;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 26 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""34"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""34"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
+27;Create property scenarios in Expert=> Verify create&update sale property works as expected: Example = 27 ;"Feature: Create property scenarios in Expert
+  Scenario Outline: Verify create&update sale property works as expected
+    Given I generate token for Expert ""eg""
+    When I send POST request with ""expertApi"" for creating sale property ""commercial"" ""25"" ""eg"" ""null""
+    Then I validate status code is 201
+    When I send GET request for property by id ""null""
+    Then I validate status code is 200
+    And I verify response with property details
+    When I update sale property with ""expertApi"" ""25"" ""updated title - API AUTOMATION"" ""eg"" ""null""
+    Then I verify response is updated ""updated title - API AUTOMATION"" in ""eg""";AE;Test;Alpha;Automated_FE;Mehmet Kadri Efe;Cucumber;PF-Website/Baseline/Front-End/Partners
