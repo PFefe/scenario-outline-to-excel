@@ -7,20 +7,20 @@ This script converts a Gherkin scenario outline file (`.feature`) into an Excel 
 
 1. **Install Python3:** If you don't have Python3 installed, you can download it from the official [Python website](https://www.python.org/downloads/).
    
-  `brew install python@3.11`
-  `yarn add python3.11`
+    `brew install python@3.11`  
+    `yarn add python3.11`
 
 
 3. **Install OpenPyXL:** OpenPyXL is used to work with Excel files in Python. You can install it via pip, Python's package manager, by running the following command in your terminal or command prompt:
 
-`pip install openpyxl`
+   `pip install openpyxl`
 
 ----------
 ## Usage
 
 1. **Clone the Repository:** Clone this repository to your local machine using Git:
 
-`git clone https://github.com/PFefe/scenario-outline-to-excel.git`
+    `git clone https://github.com/PFefe/scenario-outline-to-excel.git`
 
 
 
@@ -28,12 +28,12 @@ Alternatively, you can download the ZIP file and extract it.
 
 2. **Navigate to the Directory:** Change your current directory to the project directory:
 
-`cd scenario-outline-to-excel`
+    `cd scenario-outline-to-excel`
 
 
 3. **Run the Script:** Run the Python script `scenarioOutline_converter.py` using Python3. You can specify the path to your scenario outline file as a command-line argument, or you can run the script and input the file path when prompted:
 
-`python3 scenarioOutline_converter.py`
+    `python3 scenarioOutline_converter.py`
 
 
 If you choose to input the file path when prompted, make sure your scenario outline file is in the same directory as the script, or provide the full path to the file.
