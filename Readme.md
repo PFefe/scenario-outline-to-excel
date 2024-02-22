@@ -6,8 +6,11 @@ This script converts a Gherkin scenario outline file (`.feature`) into an Excel 
 ## Installation
 
 1. **Install Python3:** If you don't have Python3 installed, you can download it from the official [Python website](https://www.python.org/downloads/).
+  `brew install python@3.11`
+  `yarn add python3.11`
 
-2. **Install OpenPyXL:** OpenPyXL is used to work with Excel files in Python. You can install it via pip, Python's package manager, by running the following command in your terminal or command prompt:
+
+3. **Install OpenPyXL:** OpenPyXL is used to work with Excel files in Python. You can install it via pip, Python's package manager, by running the following command in your terminal or command prompt:
 
 `pip install openpyxl`
 
