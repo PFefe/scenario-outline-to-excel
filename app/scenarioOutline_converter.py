@@ -50,7 +50,7 @@ def main():
 
     wb = openpyxl.Workbook()
     ws = wb.active
-    ws.append(["#", "Summary", "Description", "Countries", "Issue Type", "Component Names", "Labels", "Assignee Name", "Test Type", "Test Repository Folder"])
+    ws.append(["#", "Summary", "Description", "Countries", "Issue Type", "Component Names", "Labels", "Assignee Name", "Test Type", "Quarter", "Test Repository Folder"])
 
     countries = get_user_input("Enter Countries: ")
     issue_type = get_user_input("Enter Issue Type: ")
@@ -58,11 +58,12 @@ def main():
     labels = get_user_input("Enter Labels: ")
     assignee_name = get_user_input("Enter Assignee: ")
     test_type = get_user_input("Enter Test Type: ")
+    quarter = get_user_input("Enter Quarter: ")
     test_repository_folder = get_user_input("Enter Test Repository Folder: ")
 
     for i, scenario in enumerate(scenarios, start=1):
         example = scenario.split(':')[-1].split('=')[1].split(';')[0].strip() if 'Example =' in scenario else ''
-        ws.append([i, f"{feature_title}: Example = {i} {example}", scenario.strip(), countries, issue_type, component_names, labels, assignee_name, test_type, test_repository_folder])
+        ws.append([i, f"{feature_title}: Example = {i} {example}", scenario.strip(), countries, issue_type, component_names, labels, assignee_name, test_type, quarter, test_repository_folder])
 
     wb.save('scenarios.xlsx')
 
