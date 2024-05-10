@@ -5,7 +5,7 @@
     "config.project.key": "PQ",
     "config.list.delimiter": ";",
     "config.date.format": "DD/MM/YYYY HH:mm",
-    "config.create.test.repository.folders": false,
+    "config.create.test.repository.folders": true,
     "config.field.mappings": [
         {
             "column.index": 1,
@@ -24,7 +24,7 @@
             }
         },
         {
-            "column.index": 4,
+            "column.index": 3,
             "jira.field": {
                 "group": "Native",
                 "id": "__xray_issue_type",
@@ -32,15 +32,7 @@
             }
         },
         {
-            "column.index": 3,
-            "jira.field": {
-                "group": "Custom Fields",
-                "id": "customfield_10705",
-                "type": "array"
-            }
-        },
-        {
-            "column.index": 5,
+            "column.index": 4,
             "jira.field": {
                 "group": "Native",
                 "id": "__component_names",
@@ -48,7 +40,7 @@
             }
         },
         {
-            "column.index": 6,
+            "column.index": 5,
             "jira.field": {
                 "group": "Native",
                 "id": "labels",
@@ -56,7 +48,7 @@
             }
         },
         {
-            "column.index": 7,
+            "column.index": 6,
             "jira.field": {
                 "group": "Native",
                 "id": "__assignee_name",
@@ -64,7 +56,7 @@
             }
         },
         {
-            "column.index": 8,
+            "column.index": 7,
             "jira.field": {
                 "group": "Xray",
                 "id": "xray_testtype",
@@ -72,7 +64,7 @@
             }
         },
         {
-            "column.index": 9,
+            "column.index": 8,
             "jira.field": {
                 "group": "Custom Fields",
                 "id": "customfield_11160",
@@ -80,7 +72,7 @@
             }
         },
         {
-            "column.index": 10,
+            "column.index": 9,
             "jira.field": {
                 "group": "Xray",
                 "id": "xray_test_repository_folder",
